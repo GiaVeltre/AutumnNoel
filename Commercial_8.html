@@ -192,6 +192,9 @@ font-style: normal;
 		top: 194px;
 		position: absolute;
 		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Commercial.html;
 		width: 29px;
 		white-space: nowrap;
 		text-align: left;
@@ -3196,7 +3199,7 @@ window.application = new Application();
 
 	<img class="image-1" src="Images/Commerical/8.jpeg" alt="wedding" width="600px" height="auto">
 
-	<div id="X_vq">
+	<div onclick="application.goToTargetView(event)" id="X_vq">
 		<span>X</span>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Text_vr">
